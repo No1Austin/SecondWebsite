@@ -1,7 +1,7 @@
 body{
   margin: 0;
   background:#e8e8e8;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Comfortaa, cursive;
   font-weight: 400;
 }
 .container{
@@ -19,8 +19,10 @@ header::after{
   display: table;
   clear: both;
 }
+
 nav {
   float: right;
+  position: sticky;
 }
 nav ul{
   margin: 0;
@@ -74,32 +76,35 @@ nav a:hover::before{
 
 
 
-
-
-
 .text-overlay {
   position: absolute;
-  top: 20%;
-  left: 70%;
+  top: 30%;
+  left: 80%;
   transform: translate(-50%, -50%);
   color: white;
   text-align: left;
   text
+  font-family: Comfortaa, cursive;
 }
 
 .headtext{
     font-size: 80px;
+    font-weight: 600px;
+    font-family: 'Pirata One', cursive;
+
+  
 }
 .othertext{
-  width: 500px;
+  width: 450px;
+  font-family: 'Comfortaa', cursive;
 }
 
 
 div p {
   background-image: linear-gradient(
     to right,
-    #54b3d6,
-    #54b3d6 50%,
+    #513002,
+    #864700 50%,
     #000 50%
   );
   background-size: 200% 100%;
@@ -114,7 +119,7 @@ div p {
 
 div p:before {
   content: '';
-  background: #54b3d6;
+  background: #673000;
   display: block;
   position: absolute;
   bottom: -3px;
@@ -138,14 +143,16 @@ div p:hover::before {
 }
 
 .text-sideby{
-  padding-top: 30%;
+  padding-top: 20%;
   padding-right: 50px;
   padding-left: 0px;
-  width: 500px;
+  width: 700px;
+  font-family: comfortaa;
 
 }
 .secondrow{
-  font-size: 50px;
+  font-size: 70px;
+  font-family: 'Pirata One', cursive;
 }
 
 .secondpic {
@@ -181,4 +188,122 @@ img:hover {
   grid-auto-flow: column;
   gap: 50px;
   background: #e8e8e8;
+}
+
+.card1 {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 50px 5% 5% 15%;
+  border: 1px solid rgb(9, 9, 9);
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+#card1{
+  width: 100%;
+}
+
+
+.card2{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 50px 5% 5% 0%;
+  border: 1px solid rgb(9, 9, 9);
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+#card2{
+  width: 100%;
+}
+.card3{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 50px 5% 5% 0%;
+  border: 1px solid rgb(9, 9, 9);
+  background-color: #f5f5f5;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+
+#card3{
+  width: 100%;
+}
+.card_container:hover {
+  transform: translateY(-10px);
+}
+.card-footer {
+  padding: 50% 50% 50% 50%;
+  width: 300px;
+  font-family: comfortaa;
+  text-align: center;
+}
+
+.logo-container{
+position: relative;
+display: flex;
+}
+
+#facebook{
+ margin: 3%  10px  3%  3% ;
+}
+
+#Twitter{
+  margin: 3%  10px  3%  3% ;
+}
+
+#Instagram{
+  margin: 3%  10px  3%  3% ;
+}
+#Tiktok{
+  margin: 3%  10px  3%  3% ;
+}
+
+
+.contact-us{
+Margin: 0%  0px  0%  50%;
+}
+
+#contact-us{
+  font-size: 50px;
+  font-family: 'Pirata One', cursive;
+  margin: 3%  10px  0%  3% ;
+}
+.Name{
+  Margin:  0%  10px  3%  3%;
+  width: 250px;
+  height: 50px;
+  border: 7px solid rgb(50, 37, 0);
+  box-sizing: border-box;
+  font-family: comfortaa;
+  font-size: 20px;
+}
+
+.Email{
+  Margin:  0%  10px  3%  3%;
+  width: 250px;
+  height: 50px;
+  border: 7px solid rgb(50, 37, 0);
+  box-sizing: border-box;
+  font-family: comfortaa;
+  font-size: 20px;
+}
+
+.Message{
+  Margin:  0%  10px  3%  3%;
+  width: 250px;
+  height: 100px;
+  border: 7px solid rgb(50, 37, 0);
+  box-sizing: border-box;
+  font-family: comfortaa;
+  font-size: 20px;
 }
